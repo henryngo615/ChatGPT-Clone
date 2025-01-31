@@ -7,6 +7,8 @@ import { MainContainer, ChatContainer, MessageList, Message, MessageInput, Typin
 
 const API_KEY = process.env.REACT_APP_NETLIFY_API_KEY;
 
+console.log("API Key: ", process.env.REACT_APP_NETLIFY_API_KEY);
+
 function App() {
   const [typing, setTyping] = useState(false); 
   const [messages, setMessages] = useState([
